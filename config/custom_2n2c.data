@@ -1,0 +1,4 @@
+classes= 4
+train=data/custom_2n2c/train.txt
+valid=data/custom_2n2c/valid.txt
+names=data/custom_2n2c/classes.names
