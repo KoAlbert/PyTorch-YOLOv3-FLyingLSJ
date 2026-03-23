@@ -1209,7 +1209,7 @@ def boxes_writing_multi_label(detections, detection_result_folder, class_names ,
 def do_python_eval_quite_multi_label(detection_result_dir, imagesetfile, cachedir, classnames, IoU_thresh):
 
     # filename = '/data/hongji/darknet/results/comp4_det_test_{:s}.txt'
-    filename = os.path.join(detection_result_dir, '{:s}.txt')
+    filename = os.path.join(detection_result_dir, '{}.txt')
 
     result = dict()
     # The PASCAL VOC metric changed in 2010
@@ -1237,7 +1237,7 @@ def do_python_eval_quite_multi_label(detection_result_dir, imagesetfile, cachedi
 def do_python_eval_quite_multi_class(detection_result_dir, imagesetfile, cachedir, classnames, IoU_thresh):
 
     # filename = '/data/hongji/darknet/results/comp4_det_test_{:s}.txt'
-    filename = os.path.join(detection_result_dir, '{:s}.txt')
+    filename = os.path.join(detection_result_dir, '{}.txt')
 
     result = dict()
     # The PASCAL VOC metric changed in 2010
